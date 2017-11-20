@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "get_setTest", "get_setTest\get_setTest.csproj", "{DAC7BB90-1C21-4C10-911A-A012B80A8424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC7BB90-1C21-4C10-911A-A012B80A8424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC7BB90-1C21-4C10-911A-A012B80A8424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC7BB90-1C21-4C10-911A-A012B80A8424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC7BB90-1C21-4C10-911A-A012B80A8424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A546122C-E083-4818-B930-459ED5D8391D}
+	EndGlobalSection
+EndGlobal
