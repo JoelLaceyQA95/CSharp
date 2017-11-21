@@ -79,10 +79,19 @@
     <Content Include="App_Data\emailDatabase_log.ldf">
       <DependentUpon>emailDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\emailServer.mdf" />
+    <Content Include="App_Data\emailServer_log.ldf">
+      <DependentUpon>emailServer.mdf</DependentUpon>
+    </Content>
     <Content Include="authenticated.aspx" />
+    <Content Include="deletedEmails.aspx" />
     <Content Include="home.aspx" />
     <Content Include="invalidUser.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="newEmail.aspx" />
+    <Content Include="openEmail.aspx" />
+    <Content Include="submitEmail.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +101,13 @@
     </Compile>
     <Compile Include="authenticated.aspx.designer.cs">
       <DependentUpon>authenticated.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deletedEmails.aspx.cs">
+      <DependentUpon>deletedEmails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deletedEmails.aspx.designer.cs">
+      <DependentUpon>deletedEmails.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
@@ -114,7 +130,35 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newEmail.aspx.cs">
+      <DependentUpon>newEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newEmail.aspx.designer.cs">
+      <DependentUpon>newEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="openEmail.aspx.cs">
+      <DependentUpon>openEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="openEmail.aspx.designer.cs">
+      <DependentUpon>openEmail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="submitEmail.aspx.cs">
+      <DependentUpon>submitEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="submitEmail.aspx.designer.cs">
+      <DependentUpon>submitEmail.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
